@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "line-bot-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-9ha1uit0nqpa"
+s3_prefix = "line-bot-app"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "LineChannelAccessToken=\"B580jRF7XH7E7XxXAPYUiPvFV3W8rCfb8f8yqvDCreQ1BgH+g+V1u6l/p3qsr8qTbk33qyjt6dYTPqIrd7llZ3FDGnhZ5vXhFEHWMY1eC15MUQXGsp/et70l75GzWX9Xs43jwINfpKmN+QXYQZYDcAdB04t89/1O/w1cDnyilFU=\" LineChannelSecret=\"90d337fdf9040c7ed1890f57502a5db1\""
+image_repositories = []
